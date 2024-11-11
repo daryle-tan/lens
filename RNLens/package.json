@@ -1,0 +1,43 @@
+{
+  "name": "@lens-protocol/react-native-lens-ui-kit",
+  "version": "0.2.9",
+  "description": "React Native UI Kit for Lens Protocol",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "graphql-codegen --config ./src/codegen.yaml",
+    "dev": "concurrently npm:watch:*",
+    "watch:ts": "npx tsc --watch",
+    "watch:copy": "node watcher.js"
+  },
+  "keywords": [
+    "Lens Protocol",
+    "web3 social",
+    "React Native"
+  ],
+  "author": "Daryle",
+  "dependencies": {
+    "@graphql-codegen/fragment-matcher": "^3.3.1",
+    "@types/react-native-video": "^5.0.15",
+    "date-fns": "^2.29.3",
+    "graphql": "^16.6.0",
+    "react-native-media-console": "^2.0.7",
+    "react-native-svg": "13.4.0",
+    "react-native-video": "^5.2.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3",
+    "urql": "^3.0.3"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^2.15.0",
+    "@graphql-codegen/typed-document-node": "^2.3.8",
+    "@graphql-codegen/typescript": "^2.8.3",
+    "@graphql-codegen/typescript-operations": "^2.5.8",
+    "@types/date-fns": "^2.6.0",
+    "@types/react": "^18.0.26",
+    "@types/react-native": "^0.70.7",
+    "concurrently": "^7.6.0",
+    "react-native": "0.70.6"
+  }
+}

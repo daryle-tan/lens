@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@lens-protocol/react-native-lens-ui-kit": "^0.2.9"
+  }
+}
